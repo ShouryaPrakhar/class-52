@@ -1,0 +1,78 @@
+h1 {
+    color:goldenrod;
+    border:solid;
+    padding:15px;
+}
+
+/* *{
+   border: solid
+}*/
+.header{
+    font-size:  25px;
+    background-color:chocolate;
+    display:flex;
+    justify-content: space-around;
+    border:solid;
+    margin: 25px;
+    padding: 20px;
+
+    
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:yellow;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin:20px;
+}
+
+.header2{
+    
+    text-align:center ;
+    color:lightseagreen
+}
+
+body{
+    background-color: #acdedd;
+}
+
+.item{
+    position:relative;
+    
+}
+
+.item p{
+    color:rgb(47, 0, 255);
+    
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity:0;
+}
+
+.item:hover p{
+opacity:1;
+    
+}
+
+.item:hover img{
+opacity:0.20;
+}
+
+.footer:hover img{
+    transform: scale(1.1);
+    
+}
